@@ -1,0 +1,373 @@
+/* fuentes */
+
+@font-face {
+	font-family: 'Museo-sans-300';
+	/*font-style: italic;*/
+	font-weight: 300;
+	src: url(../fonts/museosans/MuseoSans-300.otf);
+}
+
+@font-face {
+	font-family: 'Museo-sans-900';
+	/*font-style: italic;*/
+	font-weight: 300;
+	src: url(../fonts/museosans/MuseoSans_900.otf);
+}
+
+
+body{
+	font-family: 'Museo-sans-300';
+}
+
+
+/*index*/
+.header-color{
+	background-color: #20354a!important;
+	
+}
+
+.header-uncolor{
+	background-color: transparent!important;
+	
+}
+
+.nav-index {
+	color: #fff;
+	background-color: transparent;
+	width: 100%;
+	height: 12em;
+	line-height: 56px;
+	-webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0)!important; 
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0)!important;
+}
+
+.text-index{
+	color: #fff;
+	text-align: justify;
+	font-size: 14.9pt;
+	line-height: 25pt;
+	font-weight: 300;
+}
+.footer-uncolor{
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+
+.logo-index{
+	width:10%;
+}
+/*general */
+
+.separador{
+	height: 6em;
+}
+
+
+nav{
+	color: #fff;
+	background-color: transparent;
+	width: 100%;
+	height: 12em;
+	line-height: 56px;
+	
+}
+
+nav .nav-wrapper {
+	padding-top: 4em;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+nav ul li.active {
+	/*background-color: transparent!important;*/
+	font-weight: 700;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+	/*font-size: 13px!important;*/
+
+}
+.footer-color{
+	background-color: #20354a;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+
+/* equipo */
+.negrita{
+	font-weight: 600;
+	font-family: 'Museo-sans-900';
+}
+
+.justificado{
+	text-align: justify;
+}
+.cursiva{
+	font-style: italic;
+}
+
+
+/* Areas */
+
+.gris{
+	background-color: #6f7c89;
+	color: #fff;
+	margin:0px;
+	height: 19em;
+}
+
+/* clientes */
+
+.back-text {
+	position: relative;
+	height: auto;
+	width: auto;
+}
+
+.info-cliente {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(32, 53, 74, 0.75);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	/* transition effect. not necessary */
+	transition: opacity .2s, visibility .2s;
+}
+
+.back-text:hover .info-cliente {
+	visibility: visible;
+	opacity: 1;
+}
+
+.nombre-cliente{
+	margin-bottom: -5%;
+}
+/*ubicacion*/
+
+/*contacto */
+.contacto{
+	background-color: #fff!important;
+	border-radius: 7px!important;
+	color: #000;
+	font-family: 'Museo-sans-300';
+	margin-top:2%!important;
+	height: 2em!important;
+	/*vertical-align: middle;*/
+}
+
+.text-contacto{
+	font-family: 'Museo-sans-900';
+	text-align: right;
+	font-size: 1em;
+}
+
+.btn, .btn-large {
+    background-color: #20354a!important;
+
+}
+/* Dispositivos */
+@media  (min-width: 1280px) and (max-width: 1360px) {
+	.gris{
+		height:18em;
+	}
+	.text-index{
+		font-size: 9.8pt;
+		line-height: 20pt;
+		font-weight: 400;
+	}
+	.nombre-cliente{
+		margin-bottom: -10%;
+		font-size: 12px;
+	}
+	.footer-uncolor {
+		height: 50px;
+		font-size: 10pt;
+	}
+
+	.espacio-footer{
+		padding-bottom: 20px!important;
+	}
+	.footer-color {
+		height: 50px;
+		font-size: 10pt;
+	}
+
+	.texto-areas{
+		font-size:12px;
+	}
+
+}
+
+@media  (min-width: 1360px) and (max-width: 1399px) {
+	.separador{
+		height: 2em;
+	}
+	.text-index{
+		font-size: 10.5pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+
+	.footer-uncolor {
+		height: 50px;
+		font-size: 10pt;
+	}
+	.footer-color {
+		height: 50px;
+		font-size: 10pt;
+	}
+	.texto-areas{
+		font-size:12px;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 1499px){
+	.text-index{
+		font-size: 11.1pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+
+	.gris{
+		height: 16.6em;
+	}
+	.footer-color {
+		height: 50px;
+		font-size: 10pt;
+	}
+	.footer-uncolor {
+		height: 50px;
+		font-size: 10pt;
+	}
+	.texto-areas{
+		font-size:auto!important;
+	}
+}
+
+@media (min-width: 1500px) and (max-width: 1699px){
+	.text-index{
+		font-size: 11.9pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+	.gris{
+		height: 18em;
+	}
+	.texto-areas{
+		font-size:auto!important;
+	}
+	.footer-color {
+		height: 50px;
+		font-size: 10pt;
+	}
+	.footer-uncolor {
+		height: 50px;
+		font-size: 10pt;
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 1699px){
+	.text-index{
+		font-size: 11.9pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+	.gris{
+		height: 18em;
+	}
+	.texto-areas{
+		font-size:auto!important;
+	}
+}
+
+@media  (min-width: 1700px) and (max-width: 1980px) {
+	.text-index{
+		font-size: 11.9pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+	.gris{
+		height: 18.4em;
+	}
+	.texto-areas{
+		font-size:12.6pt;
+	}
+
+}
+/* dispositivos móviles */
+@media (max-width: 800px){
+	.areas-mobile{
+		margin-bottom: 0px!important;
+	}
+	.imagen-equipo{
+		width: 35%;
+
+	}
+	.nav-index{
+		height: 7em;
+	}
+	.text-index{
+		font-size: 11.9pt;
+		line-height: 20pt;
+		font-weight: 300;
+	}
+	.row .col {
+		padding: 0px 0.15rem!important;
+		
+	}
+	.footer-space{
+		padding-bottom: 100px;
+	}
+	nav .brand-logo {
+		padding-left: 15%!important;
+	}
+	nav .nav-wrapper {
+		padding-top: 4em;
+		padding-left: 1em;
+		/* padding-right: 5em; */
+	}
+	nav .button-collapse {
+
+		margin: 0px!important;
+	}
+	.logo-index{
+		width:30%;
+	}
+	.gris{
+		background-color: transparent!important;
+		height: auto;
+		color: #000!important;
+	}
+	.texto-areas{
+		font-size:auto!important;
+	}
+
+	.footer-color {
+		position: absolute;
+		height: 100px;
+	}
+
+	.footer-uncolor {
+		padding-top: 60px;
+		position: absolute;
+		height: 100px;
+	}
+
+	.text-contacto{
+		text-align: left;
+	}
+}
